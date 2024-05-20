@@ -1,0 +1,72 @@
+@import url("global.css");
+
+.safety-result-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.5rem;
+  color: #080710;
+  text-align: center;
+}
+
+.safety-result-container > h1 {
+  margin-bottom: 10px;
+}
+
+.safety-result-container > div {
+  display: flex;
+  gap: 10px;
+  width: 80%;
+}
+
+.safety-result-container > div > div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.safety-result-container > div > video {
+  flex: 1;
+  width: 200px;
+}
+
+.pie-chart {
+  width: 500px;
+  height: 500px;
+  margin-top: 10px;
+}
+
+.chart-container {
+  display: flex;
+  align-items: center;
+}
+
+.container-2 {
+  background-color: rgba(255, 255, 255, 0.13);
+  border-radius: 10px;
+  backdrop-filter: blur(50px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 10px rgba(8, 7, 16, 0.6);
+  padding: 35px;
+  height: fit-content;
+}
+
+.container-2 h1 {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.container-2 p {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: gray;
+}
+
+video {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 10px;
+}

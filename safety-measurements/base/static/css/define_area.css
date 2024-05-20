@@ -1,0 +1,38 @@
+@import url("global.css");
+
+.canvas-container {
+  height: 100%; /* Adjust this value if needed */
+  margin: 2rem 0;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #080710;
+}
+
+.canvas-container h1 {
+  margin-bottom: 1rem;
+}
+
+.canvas-container p {
+  margin-bottom: 10px;
+  color: gray;
+}
+
+#restrictedAreaCanvas {
+  border: 1px solid #080710;
+  /* margin-top: 10px; */
+  margin-top: 10px;
+  display: block;
+}
+#submitCoordinates {
+  margin-top: 18px;
+  width: 15%;
+  color: #ffffff;
+  background-color: #080710;
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+}

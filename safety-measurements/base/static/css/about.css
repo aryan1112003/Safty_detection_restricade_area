@@ -1,0 +1,69 @@
+.container {
+    max-width: 1570px;
+    margin: 0 auto;
+    padding: 16px;
+
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+}
+
+.about-section {
+    padding:  0 50px;
+    text-align: center;
+    /* background-color: rgb(236, 230, 230); */
+    color: rgb(79, 78, 78);
+
+    font-family: "Poppins", sans-serif;
+    /* Sans-serif fallback */
+    /* font-family: 'Georgia', serif; */
+    font-size: 20px;
+}
+
+.about-text{
+    max-width: 50%;
+    padding: 170px 10px;
+    padding-left: 110px;
+    font-size: 30px;
+}
+.about-img,.func-img{
+    max-width: 50%;
+}
+
+.inside-about-content {
+    /* max-width: 1000px; */
+    display: flex;
+    /* flex-direction: row; */
+    text-align: left;
+    line-height: 1.8;
+}
+
+.func{
+        padding:50px;
+    display: flex;
+    justify-content: space-evenly
+}
+
+.func-text{
+    max-width: 50%;
+    padding: 50px;
+}
+
+ul li{
+    text-align: left;
+}
+.func-subtext {
+    padding: 14px 20px;
+}
+li {
+    margin-bottom: 25px;
+}
+
+.container::after,
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}

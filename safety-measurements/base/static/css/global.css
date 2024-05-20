@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap");
+
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: white;
+  /* background-color: #080710; */
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  background-color: rgb(79, 78, 78);
+}
+
+.navbar>.link {
+  display: flex;
+  align-items: center;
+}
+
+.navbar>.link>a {
+  display: inline-block;
+  color: white !important;
+  margin: 0 10px;
+}
+
+.navbar img {
+  width: 200px;
+}
+
+.navbar>.user {
+  display: flex;
+  align-items: center;
+}
+
+.navbar>.user>.logout {
+  margin-left: 10px;
+  padding: 8px 15px;
+  color: rgb(79, 78, 78);
+  background-color: white;
+  border-radius: 10px;
+  text-decoration: none !important;
+}
+
+.content {
+  min-height: 100vh;
+}
+
+.footer {
+  padding: 20px;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  background-color: rgb(79, 78, 78);
+}
+
+#preloader {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  background: #1b1b1e url("../images/loader.svg") no-repeat center center;
+  background-size: 70%;
+  opacity: 90%;
+  z-index: 100;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  background-color: gray;
+  width: max-content;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 105%;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
