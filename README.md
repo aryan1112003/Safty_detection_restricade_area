@@ -56,4 +56,4 @@ We welcome contributions to improve this project! If you have suggestions for en
 A video demonstration of the system in action can be found [here](https://youtu.be/sqwQgWj2tJc)&(https://youtu.be/KEwlnMyOSoU). 
 ```
 
-Make sure to replace the placeholder URL in the "Video URL" section with the actual URL of your video once it's ready. This README file provides a structured overview of your project, making it easier for others to understand and contribute.
+
